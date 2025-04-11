@@ -7,7 +7,7 @@ const os = require('os');
 const app = express();
 const PORT = process.env.PORT || 3000;
 
-// ⬇️ Продукти поки що в памʼяті:
+//
 let products = [
   { id: 1, name: "Sample", price: 10, description: "example product" }
 ];
